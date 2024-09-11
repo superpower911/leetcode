@@ -23,6 +23,7 @@ public class LC142 {
             otherNode = otherNode.next;
             slowNode = slowNode.next;
         }
+
         return otherNode;
     }
 }
